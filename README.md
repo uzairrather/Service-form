@@ -1,12 +1,22 @@
-# React + Vite
+# Service Request Form – Habot Connect DMCC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, multi-step React form to collect child details, support needs, and parent contact info.
 
-Currently, two official plugins are available:
+## Features
+ Step 1: Child Details
+ Step 2: Service Needs
+ Step 3: Contact Information
+ Client-side validation
+ Thank You message with auto-redirect
+ Fully responsive with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React + Vite
+- Tailwind CSS
+- JavaScript (Hooks-based)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+```bash
+npm install
+npm run dev
+npm run chaloo
